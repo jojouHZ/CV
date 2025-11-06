@@ -1,0 +1,143 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Roman Suleimanov} \\ \vspace{1pt}
+    \small +7 (981) 939-87-39 $|$ \href{mailto:jojou112@gmail.com}{\underline{jojou112@gmail.com}} $|$
+    \href{https://t.me/jojouHZ}{\underline{t.me/jojouHZ}}
+\end{center}
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rostov Trade and Economic College}{Rostov-on-Don, Russia}
+      {Diploma in Software for Computer Systems and Automated Systems}{2002 -- 2006}
+    \resumeSubheading
+      {Taganrog State University of Radio Engineering (TRTU)}{Taganrog, Russia}
+      {Bachelor's Degree in Automation of Technological Processes and Production, Digital Control of Production Complexes}{2006 -- 2010}
+  \resumeSubHeadingListEnd
+
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Offset Printer}{2010 -- Mar 2018}
+      {Various Printing Houses}{Saint Petersburg, Russia}
+      \resumeItemListStart
+        \resumeItem{Operated and maintained offset printing machines to produce high-quality printed materials.}
+        \resumeItem{Monitored print quality, adjusting color balance, registration, and ink density as needed.}
+        \resumeItem{Prepared and calibrated printing plates, ensuring accurate image and text reproduction.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Internet Projects Manager}{Mar 2018 -- Jul 2023}
+      {Alidi}{Saint Petersburg, Russia}
+      \resumeItemListStart
+        \resumeItem{Managed the creation and operation of official online stores on marketplaces (AliExpress, Alibaba, Amazon, Yandex Market, Goods.ru) for brands such as P\&G, Gillette, Coca-Cola, Mars, and Nestlé.}
+        \resumeItem{Developed scripts to automate warehouse processes, improving order fulfillment and shipping efficiency.}
+        \resumeItem{Collaborated with brand representatives to resolve claim situations and ensure smooth operations.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Game Developer}{Oct 2023 -- Oct 2024}
+      {\href{https://store.steampowered.com/app/3687350/Tiny_Truck_Simulator/}{Tiny Truck Simulator (Indie Project)}}{Remote}
+      \resumeItemListStart
+        \resumeItem{Developed core game mechanics, including vehicle physics and controls.}
+        \resumeItem{Implemented gameplay features using C++ and Unreal Engine Blueprints.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Administrator / Webmaster}{Jun 2024 -- Jun 2025}
+      {Shrinadji Academy}{Tbilisi, Georgia}
+      \resumeItemListStart
+        \resumeItem{Maintained and updated the academy's website, ensuring smooth operation and user accessibility.}
+        \resumeItem{Organized and managed live streaming events, ensuring high-quality broadcasts and technical support.}
+        \resumeItem{Provided user support, resolving technical issues and improving user experience.}
+        \resumeItem{Automated internal workflows using low-code/no-code tools and custom JavaScript/Python scripting.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{\href{https://store.steampowered.com/app/3687350/Tiny_Truck_Simulator/}{Tiny Truck Simulator}} $|$ \emph{C++, Unreal Engine, Blueprints}}{Oct 2023 -- Oct 2024}
+      \resumeItemListStart
+        \resumeItem{Developed core game mechanics, including vehicle physics and controls.}
+        \resumeItem{Implemented gameplay features using C++ and Unreal Engine Blueprints.}
+        \resumeItem{Published the game on \href{https://store.steampowered.com/app/3687350/Tiny_Truck_Simulator/}{Steam}.}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{Code Diff Viewer} $|$ \emph{TypeScript, React, Monaco Editor, IndexedDB, rc-slider, react-diff-view}}{Recent}
+      \resumeItemListStart
+        \resumeItem{Developed an interactive code difference viewer with real-time comparison.}
+        \resumeItem{Implemented Monaco Editor for code editing and visualization.}
+        \resumeItem{Used IndexedDB for client-side data storage and management.}
+        \resumeItem{Integrated rc-slider and react-diff-view for enhanced user interaction.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: C++, Python, JavaScript, TypeScript, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Unreal Engine} \\
+     \textbf{Tools}{: Git, VS Code, Webpack, ESLint, Prettier, Monaco Editor, IndexedDB} \\
+     \textbf{Technologies}{: REST API, WebSockets, Docker (basic knowledge), CI/CD (GitHub Actions)}
+    }}
+ \end{itemize}
+
+\end{document}
