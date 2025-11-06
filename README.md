@@ -1,1 +1,1 @@
-![CV Image](./resume-page1.jpg)
+![CV Image](resume_page1.jpg)
